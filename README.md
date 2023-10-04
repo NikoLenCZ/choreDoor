@@ -35,7 +35,7 @@ Hru jsem si samozřejmě upravila 😁 Místo napevno daného počtu dveří v k
 
 ## 👀  Náhled aplikace:
 
-![2023-10-04_082643](https://github.com/NikoLenCZ/choreDoor/assets/55710950/103df5c1-59dc-43e3-a15b-8f6403337eb9)
+![2023-10-04_082643](https://github.com/NikoLenCZ/choreDoor/assets/55710950/b9be75d6-d2c5-4b57-a0e0-3802c823eb33)
 
 ---
 
