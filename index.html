@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chore Door!</title>
+  <meta name="description"
+    content="Projekt v rámci Javascript kurzu na Codeacademy. Hru jsem si samozřejmě upravila 😁 Místo napevno daného počtu dveří v kódu, si hráč může vybrat s jakým počtem dveří chce hrát. Na výběr má od 3 (původní pevná hodnota) do 8 dveří.">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg">
+  </div>
+
+  <div class="title-row">
+    <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+    <p class="instructions-title">Instructions</p>
+    <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
+  </div>
+
+  <div class="section__instructions">
+    <ol class="instructions-row">
+      <li class="instructions-text">
+        Choose the number of doors you want to play with
+      </li>
+      <li class="instructions-text">Hiding behind one of these doors is the ChoreBot.</li>
+      <li class="instructions-text">Your mission is to open all of the doors without running
+        into the ChoreBot.</li>
+      <li class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!
+      </li>
+      <li class="instructions-text">See if you can score a winning streak!</li>
+    </ol>
+  </div>
+  <div class="section__selection">
+    <div class="selection">
+      <label for='select__number'>Select number of doors</label>
+      <select id='select__number' name='number'>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+        <option value='6'>6</option>
+        <option value='7'>7</option>
+        <option value='8'>8</option>
+      </select>
+    </div>
+  </div>
+  <div class="door-row">
+  </div>
+  <button type="button" id="start" class="start-row">Good Luck!</button>
+
+</body>
+
+</html>

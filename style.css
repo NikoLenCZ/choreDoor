@@ -1,0 +1,103 @@
+body {
+  background-color: #010165;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.header {
+  background-color: #00ffff;
+  text-align: center;
+}
+
+.section__instructions, .section__selection {
+  padding-inline: 1rem;
+}
+
+.title-row {
+  margin-top: 2.625rem;
+  text-align: center;
+  margin-bottom: 1.313rem;
+}
+
+.instructions-title {
+  display: inline;
+  font-size: 1.25rem;
+  color: #00ffff;
+}
+
+.instructions-row {
+  margin-inline: auto;
+  max-width: 27rem;
+}
+
+ol li::marker {
+  padding-right: 1.5rem;
+  font-size: 1.35rem;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding: 0.625rem;
+  font-size: 1.01rem;
+  color: #ffffff;
+}
+
+.door-row {
+  text-align: center;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 0.625rem;
+}
+
+button {
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 2rem;
+  display: flex;
+  margin-block: 3rem;
+  margin-inline: auto;
+  background-color: #eb6536;
+  border: 0.125rem solid #f17d52;
+  border-radius: .25rem;
+  color: #010165;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f17d52;
+  border: 0.125rem solid #eb6536;
+}
+
+.selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 3rem;
+  margin-inline: auto;
+  max-width: 21.875rem;
+  background-color: #010165;
+  border: 0.125rem solid #00ffffa3;
+  border-radius: .188rem;
+  padding: 1rem;
+}
+
+select {
+  font-size: 1.4rem;
+  padding: 0.188rem 0.625rem;
+  background-color: #010165;
+  color: #ffffff;
+  border: 0.063rem solid rgba(0, 255, 255, 0.38);
+  border-radius: 0.188rem;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
